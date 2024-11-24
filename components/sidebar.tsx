@@ -11,8 +11,7 @@ import { Button } from "@/components/ui/button"
 const menuItems = [
   { href: "/dashboard/students", icon: Users, label: "รายชื่อนักศึกษา" },
   { href: "/dashboard/student", icon: User, label: "ข้อมูลนักศึกษา'" },
-  { href: "/dashboard/companies", icon: Buildings, label: "รายชื่อสถานประกอบการ" },
-  { href: "/dashboard/company", icon: Building, label: "ข้อมูลสถานประกอบการ" },
+ 
 ]
 
 export function Sidebar() {
